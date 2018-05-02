@@ -8,5 +8,12 @@ public class MobilAksi {
         m.setHarga(6500000);
         
         m.cetakInfo();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(m.getMerk());
+        System.out.print("Warnanya \t: ");
+        System.out.println(m.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(m.getHarga());
     }
 }
